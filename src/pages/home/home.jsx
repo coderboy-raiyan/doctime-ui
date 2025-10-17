@@ -1,11 +1,11 @@
-import { Outlet } from "react-router";
 import Header from "../../components/Header/header";
+import Hero from "./hero";
 
 function Home() {
   return (
     <main>
       <Header />
-      <Outlet />
+      <Hero />
     </main>
   );
 }
